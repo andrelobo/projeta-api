@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+*.tsbuildinfo
+
+# Testes
+coverage/
+
+# Ambiente — nunca versionar segredos
+.env
+.env.*
+!.env.example
+
+# Logs e artefatos locais
+*.log
+.DS_Store
+.idea/
+.vscode/
